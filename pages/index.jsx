@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Container, Row, Card, Button } from "react-bootstrap";
 
-import Link from "next/link";
+import Link from "next/Link";
 
 
 export default function Home() {
