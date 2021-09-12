@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { Container, Row, Card, Button } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
+
 import Link from "next/link";
-import withRouter from "next/dist/client/with-router";
+
 
 export default function Home() {
   return (
