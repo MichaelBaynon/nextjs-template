@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Albion HQ</title>
-        <link rel="icon" href="/AlbionHQlogo.png" />
+        <link rel="icon" href="/AHQ.png" />
       </Head>
 
       <Card style={{border: 'none'}} className="bg-dark text-white">
