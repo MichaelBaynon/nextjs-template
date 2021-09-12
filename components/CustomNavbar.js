@@ -2,28 +2,30 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Link from 'next/Link'
 
 
 
 const CustomNavbar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar sticky="top"  bg="light" expand="lg">
       <Container className='navBarCustom'>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Albion HQ</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/builds"> Builds </Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <Nav.Link href="/crafting"> Crafting </Nav.Link>
+            <NavDropdown className='dropdownOptions' title="Gathering" id="basic-nav-dropdown">
+              <NavDropdown.Item> <Link href='/mining'>Ore Miner</Link> </NavDropdown.Item>
+              <NavDropdown.Item> <Link href='/quarrier'>Quarrier</Link> </NavDropdown.Item>
+              <NavDropdown.Item > <Link href='/lumberjack'>Lumberjack</Link> </NavDropdown.Item>
+              <NavDropdown.Item > <Link href='/skinner'>Skinner</Link> </NavDropdown.Item>
+              <NavDropdown.Item> <Link href='/harvester'>Harvester</Link> </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item href="#action/3.4" >
+               <a style={{color: "#00A7FF"}} href='https://wiki.albiononline.com/wiki/Gathering'  target="_blank">Official Wiki</a> 
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
