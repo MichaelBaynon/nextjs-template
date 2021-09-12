@@ -41,7 +41,7 @@ const Harvester = () => {
 
         {/* //// */}
 
-        <Card style={{ width: "18rem", marginBottom: '40px'  }}>
+        <Card style={{ width: "18rem", marginBottom: '40px' }}>
           <Card.Body>
             <Card.Title>Albion Online |CORRUPTED DUNGEONS | Heavy Crossbow PvP</Card.Title>
             <iframe

@@ -2,12 +2,12 @@ import { Container, Row, Card, Button, Badge } from "react-bootstrap";
 
 const Builds = () => {
   return (
-    <div>
+    <div className='buildsArea'>
       <h1 className="buildsPageTitle">BUILDS</h1>
       <div className="buildVideos">
-        <Card style={{ width: "18rem", marginBottom: '40px' }}>
+        <Card style={{ width: "18rem", marginBottom: '40px'}}>
           <Card.Body>
-            <Card.Title>Albion Online |CORRUPTED DUNGEONS | Heavy Crossbow PvP</Card.Title>
+            <Card.Title className='cardTitle'>Albion Online |CORRUPTED DUNGEONS | Heavy Crossbow PvP</Card.Title>
             <iframe
             width='100%'
               className="buildVideo"
@@ -23,7 +23,7 @@ const Builds = () => {
 
         {/* //// */}
 
-        <Card style={{ width: "18rem", marginBottom: '40px'  }}>
+        <Card style={{ width: "18rem", marginBottom: '40px' }}>
           <Card.Body>
             <Card.Title>Albion Online |CORRUPTED DUNGEONS | Heavy Crossbow PvP</Card.Title>
             <iframe
