@@ -3,14 +3,16 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from 'next/link'
+import Image from 'next/image'
+import ahqLogo from '../public/AHQ.png'
 
 
 
 const CustomNavbar = () => {
   return (
-    <Navbar sticky="top"  bg="light" expand="lg">
+    <Navbar  sticky="top"  bg="light" expand="lg">
       <Container className='navBarCustom'>
-        <Navbar.Brand href="#home">Albion HQ</Navbar.Brand>
+        <Navbar.Brand href="#home"> <Image src={ahqLogo} alt='AHQ' width='34.57px' height='23.7px' /> Albion HQ</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
