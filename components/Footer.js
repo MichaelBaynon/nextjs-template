@@ -18,7 +18,7 @@ const Footer = () => {
       </div>
       <p className="patreonArea">
         {" "}
-        Support Albion HQ 🡢{" "}
+        Support Albion HQ -->{" "}
         <a href="https://www.patreon.com/user?u=61784538">
           {" "}
           <Image src={PatreonLogo} width="128px" height="30px" />{" "}
