@@ -72,3 +72,33 @@ text-shadow: 2px 2px 0px #999fa3, 4px 4px 0px rgba(0,0,0,0.25);
   background-image: url('../public/buildsBackground.jpg');
   
 }
+
+/* footer ///////////////////////////////////////////////////// */
+
+.footer {
+  /* border: 1px solid red; */
+display: flex;
+flex-direction: column;
+
+text-align: center;
+}
+
+.patreonArea {
+  /* border: 1px solid green; */
+  border-top: 1px solid rgb(221, 221, 221);
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.socialLinksFooter {
+  border-top: 1px solid rgb(221, 221, 221);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  padding: 10px 15px;
+  padding-top: 20px;
+}
